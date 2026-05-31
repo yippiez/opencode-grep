@@ -1,6 +1,6 @@
 ---
 description: Code search and explanation agent (read-only)
-mode: subagent
+mode: primary
 color: "#A7DCA5"
 permission:
   edit: deny
