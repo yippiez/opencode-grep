@@ -1,12 +1,7 @@
 # opencode-grep
 
-A read-only [opencode](https://opencode.ai) agent for code search and explanation.
+Green read-only opencode agent for code search. Invoke with `@grep`.
 
-- Green-colored (`#A7DCA5`) subagent
-- **Read-only**: edit/deny, write/deny, webfetch/deny
-- Permitted bash: `fzf`, `ast-grep`, `rg`, `grep`, `ls`
-- Provides file locations and step-by-step code walkthroughs
+**Permitted**: `rg`, `fd`, `ast-grep`, `fzf`, `grep`, `ls`
 
-## Usage
-
-Place `grep.md` in `~/.config/opencode/agent/` and restart opencode. Then invoke with `@grep`.
+Install: copy `grep.md` to `~/.config/opencode/agent/`, restart opencode.
